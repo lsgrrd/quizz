@@ -11,8 +11,15 @@ export default {
     title: pkg.name,
     meta: [
       { charset: 'utf-8' },
-      { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { hid: 'description', name: 'description', content: pkg.description }
+      { name: 'viewport', content: 'width=device-width, initial-scale=1, user-scalable=no' },
+      { hid: 'description', name: 'description', content: 'Descubre a que politico te pareces 😂🤣' },
+      { name: 'author', content: 'gulmar'},
+      { name: 'keywords', content: 'politico, ecuador'},
+      { property: 'og:title', content: '¿A que politico te pareces? | DESCUBRELO'},
+      { property: 'og:image', content: 'https://aquepoliticotepareces.firebaseapp.com/ogfb.png'},
+      { property: 'og:site_name', content: 'https://aquepoliticotepareces.firebaseapp.com/'},
+      { property: 'og:description', content: 'Descubre a que politico te pareces 😂🤣'},
+
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
@@ -20,6 +27,9 @@ export default {
         rel: 'stylesheet',
         href:
           'https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Material+Icons'
+      },{
+        rel: 'stylesheet',
+        href: 'https://www.gstatic.com/firebasejs/ui/3.6.0/firebase-ui-auth.css' 
       }
     ]
   },

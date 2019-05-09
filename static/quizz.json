@@ -1,0 +1,157 @@
+{
+    "preguntas": [
+        {
+            "num": 1 ,
+            "img": "/pelea.png",
+            "pregunta": "En una puñetiza...",
+            "uno": {
+                "respuesta": "Metes de puñetes hasta a los chapas.",
+                "resultado": "Felicidades estás re-loco por los puñetes men como Abdalá Bucaram.",
+                "img": "/1-1.png"
+            },
+            "dos": {
+                "respuesta": "Metes el primer quiño.",
+                "resultado": "Felicidades eres todo un león Febres Cordero porque no te ahuevas.",
+                "img": "/1-2.png"
+            },
+            "tres": {
+                "respuesta": "Solo te dedicas a putear.",
+                "resultado": "Eres todo un Jaime Nebot, puro bla bla miau.",
+                "img": "/1-3.png"
+            }
+        }, {
+            "num": 2,
+            "img": "/after.png",
+            "pregunta": "En un after",
+            "uno": {
+                "respuesta": "Pides Rocio Dulcan.",
+                "resultado": "Felicidades, por tus gustos musicales eres un Mauricio Rodas neto, hecho el aniñado y malísimo para un trago.",
+                "img": "/2-1.png"
+            },
+            "dos": {
+                "respuesta": "Pides Ángel Guaraca",
+                "resultado": "Felicidades, Por tus gustos musicales eres un Jorge Yunda neto, buenísimo para un traguito y rosca para un puñete de chumadito.",
+                "img": "/2-2.png"
+            },
+            "tres": {
+                "respuesta": "Pides Juan Gabriel",
+                "resultado": "Felicidades, por tus gustos musicales eres un Ricardo Patiño Neto, flojo para un trago, pero buenísimo para el chisme.",
+                "img": "/2-3.png"
+            }
+        }, {
+            "num": 3,
+            "img": "/bufet.png",
+            "pregunta": "Para el bautizo de tus guaguas",
+            "uno": {
+                "respuesta": "Cuysito asado con papas en salsa de maní.",
+                "resultado": "Felicidades, tienes toda la sazón y gustos de Lurdes Tibán.  ",
+                "img": "/3-1.PNG"
+            },
+            "dos": {
+                "respuesta": "Caviar y langostinos.",
+                "resultado": "En buena hora, tienes la sazón y gustos de la aniñada del guayas Cynthia Viteri.",
+                "img": "/3-2.PNG"
+            },
+            "tres": {
+                "respuesta": "Caldo de manguera, cuy y una cervecita no ha de faltar.",
+                "resultado": "Tienes los gustos y la sazón del rocoto Jorge Yunda",
+                "img": "/3-3.png"
+            }
+        }, {
+            "num": 4,
+            "img": "/transporte.png",
+            "pregunta": "¿Que medio de transporte utilizas más?",
+            "uno": {
+                "respuesta": "Cadify",
+                "resultado": "Te inclinas más a ser el pelucón como Guillermo Lasso",
+                "img": "/4-1.png"
+            },
+            "dos": {
+                "respuesta": "Bus nomás",
+                "resultado": "Eres un digno ecuatorianaso como Jorge Yunda",
+                "img": "/4-2.png"
+            },
+            "tres": {
+                "respuesta": "A pata",
+                "resultado": "Eres fiel a la marcha ovejuna de Rafael Correa ",
+                "img": "/4-3.png"
+            }
+        }, {
+            "num": 5,
+            "img": "/sing.png",
+            "pregunta": "Cuando cantas en la ducha",
+            "uno": {
+                "respuesta": "te pegas una de Los Iracun'dos'",
+                "resultado": "llevas al loco que ama, Abdala Bucaram, en tus venas.",
+                "img": "5-1.png"
+            },
+            "dos": {
+                "respuesta": "te pegas una de Miguel Bosé",
+                "resultado": "No puedes ocultar tus toques del Rafael Correa.",
+                "img": "/5-2.png"
+            },
+            "tres": {
+                "respuesta": "te pegas una de Delfin",
+                "resultado": "No puede ser! Llevas al buen Delfin Quishpe en las venas.",
+                "img": "/5-3.png"
+            }
+        }, {
+            "num": 6,
+            "img": "/botellas.png",
+            "pregunta": "Para un chupe compras..",
+            "uno": {
+                "respuesta": "Puntas ",
+                "resultado": "Tomas como albañil a lo Lourdes Tibán.",
+                "img": "/6-1.png"
+            },
+            "dos": {
+                "respuesta": "Blue Johnnie Walker",
+                "resultado": "Te gusta hacerte verga y derrochar la plata como Guillermo Lasso.",
+                "img": "/6-2.png"
+            },
+            "tres": {
+                "respuesta": "Bielita",
+                "resultado": "Te gusta beber pero mantenerte al limite como Mauricio Rodas en las reuniones.",
+                "img": "/6-3.png"
+            }
+        }, {
+            "num": 7,
+            "img": "/vacation.png",
+            "pregunta": "¿A donde te vas de vacaciones?",
+            "uno": {
+                "respuesta": "A las europas",
+                "resultado": "Viajas como pelucón y te pegas tu langostita al estilo de Lenin Moreno.",
+                "img": "/7-1.png"
+            },
+            "dos": {
+                "respuesta": "Todo playa",
+                "resultado": "A falta de banano, sol , playa y arena al swing Alvarito Novoa.",
+                "img": "/7-2.png"
+            },
+            "tres": {
+                "respuesta": "por aquisito nomás",
+                "resultado": "No hay nada como volver a la llacta como Lourdes Tibán.",
+                "img": "/7-3.png"
+            }
+        }, {
+            "num": 8,
+            "img": "/lupa.png",
+            "pregunta": "Con cual de estas mañas te identificas más",
+            "uno": {
+                "respuesta": "Comer con las manos",
+                "resultado": "Comes con locura y amor como Abdalá Bucarám.",
+                "img": "/8-1.png"
+            },
+            "dos": {
+                "respuesta": "ir a chonguitos",
+                "resultado": "Dejarás de ir al chongo o morirás en el intento como Lucio  Gutierrez ",
+                "img": "/8-2.png"
+            },
+            "tres": {
+                "respuesta": "Putear",
+                "resultado": "Como Jaime Nebot; Al mal tiempo, ven para mearte insecto hijueputa",
+                "img": "/8-3.png"
+            }
+        }
+    ]
+}
