@@ -2,10 +2,12 @@ import Vue from 'vue'
 import Router from 'vue-router'
 import { interopDefault } from './utils'
 
-const _ea92e71e = () => interopDefault(import('..\\pages\\gracias\\index.vue' /* webpackChunkName: "pages_gracias_index" */))
-const _33db95dc = () => interopDefault(import('..\\pages\\privacidad.vue' /* webpackChunkName: "pages_privacidad" */))
-const _24777d7a = () => interopDefault(import('..\\pages\\quizz\\index.vue' /* webpackChunkName: "pages_quizz_index" */))
-const _f404a0d6 = () => interopDefault(import('..\\pages\\index.vue' /* webpackChunkName: "pages_index" */))
+const _d1d7112e = () => interopDefault(import('../pages/gracias/index.vue' /* webpackChunkName: "pages/gracias/index" */))
+const _1cfb9172 = () => interopDefault(import('../pages/privacidad.vue' /* webpackChunkName: "pages/privacidad" */))
+const _08e02b00 = () => interopDefault(import('../pages/quizz/index.vue' /* webpackChunkName: "pages/quizz/index" */))
+const _174989d1 = () => interopDefault(import('../pages/quizz/hombre.vue' /* webpackChunkName: "pages/quizz/hombre" */))
+const _60dab71d = () => interopDefault(import('../pages/quizz/mujer.vue' /* webpackChunkName: "pages/quizz/mujer" */))
+const _216c974a = () => interopDefault(import('../pages/index.vue' /* webpackChunkName: "pages/index" */))
 
 Vue.use(Router)
 
@@ -83,19 +85,27 @@ export function createRouter() {
 
     routes: [{
       path: "/gracias",
-      component: _ea92e71e,
+      component: _d1d7112e,
       name: "gracias"
     }, {
       path: "/privacidad",
-      component: _33db95dc,
+      component: _1cfb9172,
       name: "privacidad"
     }, {
       path: "/quizz",
-      component: _24777d7a,
+      component: _08e02b00,
       name: "quizz"
     }, {
+      path: "/quizz/hombre",
+      component: _174989d1,
+      name: "quizz-hombre"
+    }, {
+      path: "/quizz/mujer",
+      component: _60dab71d,
+      name: "quizz-mujer"
+    }, {
       path: "/",
-      component: _f404a0d6,
+      component: _216c974a,
       name: "index"
     }],
 

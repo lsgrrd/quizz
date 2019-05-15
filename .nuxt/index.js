@@ -10,8 +10,9 @@ import { setContext, getLocation, getRouteData, normalizeError } from './utils'
 
 /* Plugins */
 
-import nuxt_plugin_nuxticons_f1cf4602 from 'nuxt_plugin_nuxticons_f1cf4602' // Source: .\\nuxt-icons.js (mode: 'all')
-import nuxt_plugin_vuetify_e5914fcc from 'nuxt_plugin_vuetify_e5914fcc' // Source: ..\\plugins\\vuetify (mode: 'all')
+import nuxt_plugin_swplugin_050912a6 from 'nuxt_plugin_swplugin_050912a6' // Source: ./sw.plugin.js (mode: 'client')
+import nuxt_plugin_nuxticons_9ec0ca98 from 'nuxt_plugin_nuxticons_9ec0ca98' // Source: ./nuxt-icons.js (mode: 'all')
+import nuxt_plugin_vuetify_e5914fcc from 'nuxt_plugin_vuetify_e5914fcc' // Source: ../plugins/vuetify (mode: 'all')
 
 // Component: <NoSsr>
 Vue.component(NoSsr.name, NoSsr)
@@ -130,8 +131,12 @@ async function createApp(ssrContext) {
 
   // Plugin execution
 
-  if (typeof nuxt_plugin_nuxticons_f1cf4602 === 'function') {
-    await nuxt_plugin_nuxticons_f1cf4602(app.context, inject)
+  if (process.client && typeof nuxt_plugin_swplugin_050912a6 === 'function') {
+    await nuxt_plugin_swplugin_050912a6(app.context, inject)
+  }
+
+  if (typeof nuxt_plugin_nuxticons_9ec0ca98 === 'function') {
+    await nuxt_plugin_nuxticons_9ec0ca98(app.context, inject)
   }
 
   if (typeof nuxt_plugin_vuetify_e5914fcc === 'function') {

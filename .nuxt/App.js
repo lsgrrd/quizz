@@ -1,14 +1,14 @@
 import Vue from 'vue'
 import NuxtLoading from './components/nuxt-loading.vue'
 
-import '..\\assets\\style\\app.styl'
+import '../assets/style/app.styl'
 
-import _6f6c098b from '..\\layouts\\default.vue'
+import _6f6c098b from '../layouts/default.vue'
 
 const layouts = { "_default": _6f6c098b }
 
 export default {
-  head: {"title":"encuesta","meta":[{"charset":"utf-8"},{"name":"viewport","content":"width=device-width, initial-scale=1, user-scalable=no"},{"hid":"description","name":"description","content":"Descubre a que politico te pareces 😂🤣"},{"name":"author","content":"gulmar"},{"name":"keywords","content":"politico, ecuador"},{"property":"og:title","content":"¿A que politico te pareces? | DESCUBRELO"},{"property":"og:image","content":"https:\u002F\u002Faquepoliticotepareces.firebaseapp.com\u002Fogfb.png"},{"property":"og:site_name","content":"https:\u002F\u002Faquepoliticotepareces.firebaseapp.com\u002F"},{"property":"og:description","content":"Descubre a que politico te pareces 😂🤣"},{"hid":"mobile-web-app-capable","name":"mobile-web-app-capable","content":"yes"},{"hid":"apple-mobile-web-app-title","name":"apple-mobile-web-app-title","content":"encuesta"},{"hid":"theme-color","name":"theme-color","content":"#fff"},{"hid":"og:type","name":"og:type","property":"og:type","content":"website"}],"link":[{"rel":"icon","type":"image\u002Fx-icon","href":"\u002Ffavicon.ico"},{"rel":"stylesheet","href":"https:\u002F\u002Ffonts.googleapis.com\u002Fcss?family=Roboto:300,400,500,700|Material+Icons"},{"rel":"stylesheet","href":"https:\u002F\u002Fwww.gstatic.com\u002Ffirebasejs\u002Fui\u002F3.6.0\u002Ffirebase-ui-auth.css"},{"rel":"manifest","href":"\u002F_nuxt\u002Fmanifest.4471dffe.json"},{"rel":"shortcut icon","href":"\u002F_nuxt\u002Ficons\u002Ficon_64.a0gw84g0004.png"},{"rel":"apple-touch-icon","href":"\u002F_nuxt\u002Ficons\u002Ficon_512.a0gw84g0004.png","sizes":"512x512"}],"style":[],"script":[],"htmlAttrs":{"lang":"en"}},
+  head: {"title":"encuesta","meta":[{"charset":"utf-8"},{"name":"viewport","content":"width=device-width, initial-scale=1, user-scalable=no"},{"hid":"description","name":"description","content":"Descubre a que politico te pareces 😂🤣"},{"name":"author","content":"gulmar"},{"name":"keywords","content":"politico, ecuador"},{"property":"og:title","content":"¿A que politico te pareces? | DESCUBRELO"},{"property":"og:image","content":"https:\u002F\u002Fmemegrafoecuador.ec\u002Fogfb.png"},{"property":"og:site_name","content":"https:\u002F\u002Fmemegrafoecuador.ec\u002F"},{"property":"og:description","content":"Descubre a que politico te pareces 😂🤣"},{"hid":"mobile-web-app-capable","name":"mobile-web-app-capable","content":"yes"},{"hid":"apple-mobile-web-app-title","name":"apple-mobile-web-app-title","content":"encuesta"},{"hid":"theme-color","name":"theme-color","content":"#fff"},{"hid":"og:type","name":"og:type","property":"og:type","content":"website"}],"link":[{"rel":"icon","type":"image\u002Fx-icon","href":"\u002Ffavicon.ico"},{"rel":"stylesheet","href":"https:\u002F\u002Ffonts.googleapis.com\u002Fcss?family=Roboto:300,400,500,700|Material+Icons"},{"rel":"stylesheet","href":"https:\u002F\u002Fwww.gstatic.com\u002Ffirebasejs\u002Fui\u002F3.6.0\u002Ffirebase-ui-auth.css"},{"rel":"manifest","href":"\u002F_nuxt\u002Fmanifest.9abc8570.json"},{"rel":"shortcut icon","href":"\u002F_nuxt\u002Ficons\u002Ficon_64.a0gw84g0004.png"},{"rel":"apple-touch-icon","href":"\u002F_nuxt\u002Ficons\u002Ficon_512.a0gw84g0004.png","sizes":"512x512"}],"style":[],"script":[],"htmlAttrs":{"lang":"en"}},
 
   render(h, props) {
     const loadingEl = h('NuxtLoading', { ref: 'loading' })
@@ -101,8 +101,6 @@ export default {
     },
 
     setLayout(layout) {
-      if(layout && typeof layout !== 'string') throw new Error('[nuxt] Avoid using non-string value as layout property.')
-
       if (!layout || !layouts['_' + layout]) {
         layout = 'default'
       }

@@ -16,8 +16,8 @@ export default {
       { name: 'author', content: 'gulmar'},
       { name: 'keywords', content: 'politico, ecuador'},
       { property: 'og:title', content: '¿A que politico te pareces? | DESCUBRELO'},
-      { property: 'og:image', content: 'https://aquepoliticotepareces.firebaseapp.com/ogfb.png'},
-      { property: 'og:site_name', content: 'https://aquepoliticotepareces.firebaseapp.com/'},
+      { property: 'og:image', content: 'https://memegrafoecuador.ec/ogfb.png'},
+      { property: 'og:site_name', content: 'https://memegrafoecuador.ec/'},
       { property: 'og:description', content: 'Descubre a que politico te pareces 😂🤣'},
 
     ],
